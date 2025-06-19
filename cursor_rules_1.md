@@ -1,4 +1,4 @@
-These should be added individually to Cursor User Rules:
+Is your Claude reward hacking? Try these rules, they should be added individually to Cursor User Rules:
 
 ---
 
