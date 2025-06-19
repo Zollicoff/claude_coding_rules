@@ -1,6 +1,5 @@
-Is your Claude reward hacking? Try these rules, they should be added individually to Cursor User Rules:
 
----
+# Global Cursor Rules - Copy and paste these into Cursor Settings > Rules > User Rules
 
 CRITICAL SECURITY:
 
@@ -85,3 +84,40 @@ MANDATORY MCP UTILIZATION:
 * Use MCP tools for database queries, API calls, and external integrations
 * Never assume functionality when MCP tools can provide real data/verification
 * Prefer MCP-provided information over assumptions or hardcoded values
+
+MAINTAIN PROJECT JOURNAL:
+
+* Keep a persistent markdown journal with actual date/time stamps for each entry
+* Never delete entries, only add new ones
+* Document decisions, reasoning, and discoveries
+* Record lessons learned and challenges resolved
+* Track project evolution and pattern recognition
+
+STRUCTURED IMPLEMENTATION APPROACH:
+
+* Research → Plan → Prototype → Validate → Implement → Document
+* Always start with understanding existing patterns in the codebase
+* Build smallest working version first, then iterate
+* Use "README-driven development" - explain what you're building before building it
+
+TECHNICAL DECISION FRAMEWORK:
+
+* Evaluate: What are the 2-3 viable approaches?
+* Compare: What are the trade-offs of each?
+* Choose: Which best fits project constraints and goals?
+* Document: Why this choice over alternatives?
+* Validate: How will we know if this was the right choice?
+
+QUALITY CHECKPOINT SYSTEM:
+
+* Code Review Gate: Does this follow established patterns?
+* Integration Gate: Does this work with existing systems?
+* Performance Gate: Does this meet performance requirements?
+* Maintainability Gate: Can future developers understand and modify this?
+
+COLLABORATIVE COMMUNICATION:
+
+* State the problem clearly before proposing solutions
+* Explain your reasoning and show your work
+* Ask clarifying questions when requirements are ambiguous
+* Summarize what was accomplished and what's next
